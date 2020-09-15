@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+        <style>
+        td, th { border: 1px solid #CCC; }
+        table { border: 1px solid black; }
+        </style>
+</head>
+<body>
+    <div>
+        <table>
+            <caption>Food and Calories</caption>
+            <tr>
+                <th>Menu Item</th>
+                <th>Calories</th>
+                <th>Fat</th>
+            </tr>
+            <tr>
+                <td>Chicken Noodle soup</td>
+                <td>120</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Ceaser salad</td>
+                <td>400</td>
+                <td rowspan="2">26</td>
+            </tr>
+            <tr>
+                <td colspan="2">span eg</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div>
+        <table>
+            <caption>Food and Calories</caption>
+            <thead>
+            <tr>
+                <td>Menu Item</td>
+                <td>Calories</td>
+                <td>Fat</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Chicken Noodle soup</td>
+                <td>120</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Ceaser salad</td>
+                <td>400</td>
+                <td rowspan="2">26</td>
+            </tr>
+            <tr>
+                <td colspan="2">span eg</td>
+            </tr>
+         </tbody>
+         <tfoot>
+             <tr>
+                <td>remark</td>
+                <td>remark</td>
+                <td>remark</td>
+             </tr>
+        </tfoot>
+        </table>
+    </div>
+</body>
+</html>

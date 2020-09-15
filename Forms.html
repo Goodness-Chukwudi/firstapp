@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms practice</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>please provide your information here</legend>
+            <label>Enter your Username here</label>
+            <input type="text">
+            <p>
+                <label for="">Tell me about yourself</label>
+                <textarea name="about" id="" cols="30" rows="10" placeholder="write your Bio"></textarea>
+            </p>
+            <p>
+                <label for="">Enter your password</label>
+                <input type="password">
+            </p>
+            <p>
+                <label for="">search</label>
+                <input type="search">
+            </p>
+    
+    
+            <label>Favourite food<input type="text" name="food" list="foody" maxlength="30" minlength="5"></label>
+            <datalist id="foody">
+                    <option value="Rice"></option>
+                    <option value="Beans"></option>
+                    <option value="Cake"></option>
+                    <option value="Bread"></option>
+    
+            </datalist>
+    
+           <p> <input type="submit">
+            <input type="reset">
+            <input type="button" value="Functionless">
+            <button><img src="button.png" alt="image for button"></button>
+            </p>
+            <input type="radio" name="age">
+            <input type="radio" name="age">
+            <input type="radio" name="age">
+            <input type="radio" name="age">
+            <input type="radio" name="age">
+    
+            <ul>
+               <li>
+                   <input type="checkbox">
+                </li>
+                <li>
+                    <input type="checkbox">
+                 </li>
+                 <li>
+                    <input type="checkbox">
+                 </li>
+                 <li>
+                    <input type="checkbox">
+                 </li>
+                 <li>
+                    <input type="checkbox" checked>
+                 </li>
+            </ul>
+            <label for="classes">What class are you registering for</label>
+            <select name="" id="classes" size="3" multiple>
+                <option value="web">Web class for beginners</option>
+                <option value="">python</option>
+                <option value="" selected>java</option>
+                <option value="">react</option>
+                <option value="">CCNA</option>
+                <option value="">Angular</option>
+                <option value="">NOde Jss</option>
+            </select>
+            
+            <p><input type="file"></p>
+            <input type="number">
+            <input type="range" min="0" max="20" step="1">
+            <input type="color">
+        </fieldset>
+    </form>
+</body>
+</html>
